@@ -13,14 +13,7 @@ def get_python_version() -> str:
 
 if __name__ == '__main__':
     print(f"Python version: {get_python_version()}")
-    print(f'{sys.maxsize}=')
-    decimals = int(sys.maxsize / 4096)
-    print(f'{decimals}=')
-    # 2305843009213693952
-    #          2147483647
-    #print(f'{sys.maxsize / 2147883657}')
-    print(f'sys.float_info.dig={sys.float_info.dig}')
-    sys.float_info.dig
+
     app = QApplication(sys.argv)
 
     OutputUtils.display_message("when in the course of human events", "title")
