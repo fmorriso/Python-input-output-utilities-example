@@ -3,7 +3,8 @@ import sys
 from decimal import Decimal
 
 from PyQt6 import QtWidgets
-from PyQt6.QtWidgets import QApplication
+from PyQt6.QtWidgets import QApplication, QMessageBox
+# from PyQt6.QtWidgets.QDialogButtonBox import StandardButton
 
 
 class InputUtils:
@@ -45,3 +46,19 @@ class InputUtils:
         app.closeAllWindows()
         app.exit()
         return n
+
+    @staticmethod
+    def get_yesno_response(question: str, title: str, parent=None) -> bool:
+        app = QApplication(sys.argv)
+
+        msgBox = QMessageBox()
+        msgBox.setText(title)
+        msgBox.setInformativeText(question)
+        msgBox.setStandardButtons(QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No)
+        msgBox.setDefaultButton(QMessageBox.StandardButton.Yes)
+        ret = msgBox.exec()
+        # print(f'ret={ret == QMessageBox.StandardButton.Yes}')
+
+        app.closeAllWindows()
+        app.exit()
+        return ret == QMessageBox.StandardButton.Yes
