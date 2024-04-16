@@ -1,8 +1,6 @@
 import decimal
 import sys
 
-from PyQt6.QtWidgets import *
-
 from input_utilities import InputUtils
 from output_utilities import OutputUtils
 
@@ -14,7 +12,7 @@ def get_python_version() -> str:
 if __name__ == '__main__':
     print(f"Python version: {get_python_version()}")
 
-    app = QApplication(sys.argv)
+    # app = QApplication(sys.argv)
 
     OutputUtils.display_message("when in the course of human events", "title")
 
