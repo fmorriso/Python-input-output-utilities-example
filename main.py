@@ -2,6 +2,10 @@ import sys
 
 # from PyQt6.QtGui import *
 from PyQt6.QtWidgets import *
+
+from output_utilities import OutputUtils
+
+
 # from PyQt6.QtCore import *
 
 
@@ -11,4 +15,6 @@ def get_python_version() -> str:
 
 if __name__ == '__main__':
     print(f"Python version: {get_python_version()}")
-    
+
+    app = QApplication(sys.argv)
+    OutputUtils.display_message("message","title")

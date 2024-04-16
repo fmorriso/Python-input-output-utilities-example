@@ -1,6 +1,7 @@
 # python-input-utilities
 
-
+## References
+[QDialog](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/QDialog.html)
 
 ## Getting started
 
