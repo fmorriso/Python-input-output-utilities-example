@@ -23,6 +23,11 @@ I included them as txt files:
 * [QMessageBox Class](https://doc.qt.io/qt-6/qmessagebox.html)
 * [QDialog](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/QDialog.html)
 
+## Tools used
+* Python 3.12.3
+* PyQt6 6.6.1
+* PyCharm 2024.1
+* VSCode 1.88.1
 ## Getting started
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.
