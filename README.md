@@ -1,7 +1,13 @@
 # python-input-utilities
 
+A set of generic message display functions for various common input and output scenarios:
+* get a whole number
+* get a decimal number
+* display an information message
+
 ## References
-[QDialog](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/QDialog.html)
+* [QMessageBox Class](https://doc.qt.io/qt-6/qmessagebox.html)
+* [QDialog](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/QDialog.html)
 
 ## Getting started
 
