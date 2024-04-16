@@ -18,7 +18,7 @@ I included them as txt files:
 * OutputUtils.java.txt
 
 ## References
-* [QT Examples and Tutorials]()https://doc.qt.io/qt-6/qtexamplesandtutorials.html
+* [QT Examples and Tutorials](https://doc.qt.io/qt-6/qtexamplesandtutorials.html)
 * [PytQT QInputDialog](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/QInputDialog.html)
 * [QMessageBox Class](https://doc.qt.io/qt-6/qmessagebox.html)
 * [QDialog](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/QDialog.html)
