@@ -17,4 +17,4 @@ if __name__ == '__main__':
     print(f"Python version: {get_python_version()}")
 
     app = QApplication(sys.argv)
-    OutputUtils.display_message("message","title")
+    OutputUtils.display_message("when in the course of human events","title")
