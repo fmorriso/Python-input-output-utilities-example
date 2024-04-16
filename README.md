@@ -1,8 +1,12 @@
 # python-input-utilities
 
+## How it works
 A set of generic message display functions for various common input and output scenarios:
+### Intput Scenarios
 * get a whole number
 * get a decimal number
+* get a yes/no answer to a question
+### Output Scenarios
 * display an information message
 
 ## Background
