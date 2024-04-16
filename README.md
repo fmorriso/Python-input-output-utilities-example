@@ -7,7 +7,7 @@ A set of generic message display functions for various common input and output s
 
 ## References
 * [QT Examples and Tutorials]()https://doc.qt.io/qt-6/qtexamplesandtutorials.html
-* [QT Standard Dialogs Example](https://doc.qt.io/qt-6/qtwidgets-dialogs-standarddialogs-example.html)
+* [PytQT QInputDialog](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/QInputDialog.html)
 * [QMessageBox Class](https://doc.qt.io/qt-6/qmessagebox.html)
 * [QDialog](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/QDialog.html)
 
