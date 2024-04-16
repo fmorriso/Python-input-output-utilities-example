@@ -1,3 +1,4 @@
+import decimal
 import sys
 
 from PyQt6.QtWidgets import *
@@ -15,7 +16,10 @@ if __name__ == '__main__':
 
     app = QApplication(sys.argv)
 
-    #OutputUtils.display_message("when in the course of human events","title")
+    OutputUtils.display_message("when in the course of human events", "title")
 
     val = InputUtils.get_whole_number("Enter a whole number", "title")
     OutputUtils.display_message(f"Thanks for entering {val}", "title")
+
+    val: decimal = InputUtils.get_decimal_number("Enter a decimal number", "title")
+    OutputUtils.display_message(f"Thanks for entering {val:.2f}", "title")
