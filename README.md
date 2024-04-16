@@ -5,6 +5,14 @@ A set of generic message display functions for various common input and output s
 * get a decimal number
 * display an information message
 
+## Background
+I wrote these Python libraries based on two Java libraries that do the same thing.
+
+I included them as txt files:
+
+* InputUtils.java.txt
+* OutputUtils.java.txt
+
 ## References
 * [QT Examples and Tutorials]()https://doc.qt.io/qt-6/qtexamplesandtutorials.html
 * [PytQT QInputDialog](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/QInputDialog.html)
