@@ -1,4 +1,4 @@
-# python-input-utilities
+# python-input-output-utilities
 
 ## How it works
 A set of generic message display functions for various common input and output scenarios:
