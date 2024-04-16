@@ -11,4 +11,4 @@ def get_python_version() -> str:
 
 if __name__ == '__main__':
     print(f"Python version: {get_python_version()}")
-    create_and_display_gui()
+    
