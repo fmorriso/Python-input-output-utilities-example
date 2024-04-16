@@ -31,7 +31,7 @@ class InputUtils:
             # means the OK button was preseed and False means the Cancel button was pressed
             min = 0
             max = decimal.MAX_EMAX
-            decimals = 10
+            decimals = sys.float_info.dig
             response = QtWidgets.QInputDialog.getDouble(parent, msg, title, 0, min, max, decimals)            # print(f'{response}=')
             if (response[1]):
                 waitingForValidInput = False
