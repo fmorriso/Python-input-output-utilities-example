@@ -6,6 +6,7 @@ A set of generic message display functions for various common input and output s
 * display an information message
 
 ## References
+* [QT Examples and Tutorials]()https://doc.qt.io/qt-6/qtexamplesandtutorials.html
 * [QMessageBox Class](https://doc.qt.io/qt-6/qmessagebox.html)
 * [QDialog](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/QDialog.html)
 
