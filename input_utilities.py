@@ -62,3 +62,27 @@ class InputUtils:
         app.closeAllWindows()
         app.exit()
         return ret == QMessageBox.StandardButton.Yes
+
+    """
+    items = ["Spring", "Summer", "Fall", "Winter"]
+
+    item, ok = QInputDialog().getItem(self, "QInputDialog().getItem()",
+                                     "Season:", items, 0, False)
+    if ok and not item.isEmpty():
+        itemLabel.setText(item)
+    """
+    @staticmethod
+    def get_single_choice(title: str, msg: str, choices: list[str], parent=None) :
+        app = QApplication(sys.argv)
+        # flags
+        # force user to choose one of the available choices before returning
+        waitingForChoice: bool = True
+        while waitingForChoice:
+            item, resp = QtWidgets.QInputDialog.getItem(parent, title, msg, choices, 0, False, )
+            # print(f'item={item}, resp={resp}')
+            waitingForChoice = not resp
+
+        app.closeAllWindows()
+        app.exit()
+        app = None
+        return item

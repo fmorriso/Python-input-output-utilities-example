@@ -22,3 +22,7 @@ if __name__ == '__main__':
 
     yn: bool = InputUtils.get_yesno_response("Do you want a sandwich?", "Sandwich")
     print(f'yn={yn}')
+
+    choices = ["Spring", "Summer", "Fall", "Winter"]
+    choice = InputUtils.get_single_choice("Choose Season", "choose a season", choices)
+    print(f'choice={choice}')
