@@ -6,6 +6,7 @@ A set of generic message display functions for various common input and output s
 * get a whole number
 * get a decimal number
 * get a yes/no answer to a question
+* get a single choice from a list of available choices
 ### Output Scenarios
 * display an information message
 
