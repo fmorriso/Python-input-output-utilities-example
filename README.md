@@ -21,7 +21,8 @@ I included them as txt files:
 
 ## References
 * [QT Examples and Tutorials](https://doc.qt.io/qt-6/qtexamplesandtutorials.html)
-* [PytQT QInputDialog](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/QInputDialog.html)
+* [QT for Python](https://doc.qt.io/qtforpython-6/)
+* [PyQt QInputDialog](https://www.pythontutorial.net/pyqt/pyqt-qinputdialog/)
 * [QMessageBox Class](https://doc.qt.io/qt-6/qmessagebox.html)
 * [QDialog](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/QDialog.html)
 
